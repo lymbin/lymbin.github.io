@@ -4,6 +4,9 @@
   type: github
   icon: 'fab fa-github'
 -
+  type: telegram
+  icon: 'fab fa-telegram'
+-
   type: twitter
   icon: 'fab fa-twitter'
 -
