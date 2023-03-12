@@ -1,0 +1,93 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Пост
+  category: Категория
+  tag: Тег
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Главная
+  categories: Категории
+  tags: Теги
+  archives: Архив
+  about: О Сайте
+
+# the text displayed in the search bar & search results
+search:
+  hint: поиск
+  cancel: Отмена
+  no_results: Упс! Результатов не найдено.
+
+panel:
+  lastmod: Недавние Обновления
+  trending_tags: В Тренде
+  toc: Контент
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Пост лицензируется под :LICENSE_NAME автором.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Права защищены.
+  verbose: >-
+    Если не указано иное, публикации в блогах на этом сайте лицензированы
+    под Creative Commons Attribution 4.0 International (CC BY 4.0) License автором.
+
+meta: Используется :PLATFORM theme :THEME.
+
+not_found:
+  statment: Извините, мы потеряли этот URL или он указывает на что-то несуществующее.
+
+notification:
+  update_found: Доступна новая версия контента.
+  update: Обновить
+
+# ----- Posts related labels -----
+
+post:
+  written_by:  
+  posted: Размещено
+  updated: Обновлено
+  words: слова
+  pageview_measure: просмотров
+  read_time:
+    unit: минут
+    prompt: чтение
+  relate_posts: Также может заинтересовать
+  share: Поделиться
+  button:
+    next: Следующий
+    previous: Предыдущий
+    copy_code:
+      succeed: Скопировано!
+    share_link:
+      title: Скопировать ссылку
+      succeed: Ссылка успешно скопирована!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Закреплен
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: '%b %e, %Y'
+    dayjs: 'll'
+  archives:
+    strftime: '%b'
+    dayjs: 'MMM'
+
+# categories page
+categories:
+  category_measure:
+    singular: категория
+    plural: категории
+  post_measure:
+    singular: пост
+    plural: посты
