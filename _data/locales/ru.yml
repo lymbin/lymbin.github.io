@@ -40,7 +40,7 @@ copyright:
     Если не указано иное, публикации в блогах на этом сайте лицензированы
     под Creative Commons Attribution 4.0 International (CC BY 4.0) License автором.
 
-meta: Используется :PLATFORM theme :THEME.
+meta: Используется :PLATFORM тема :THEME.
 
 not_found:
   statment: Извините, мы потеряли этот URL или он указывает на что-то несуществующее.
