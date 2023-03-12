@@ -1,7 +1,7 @@
 ---
 title: Road to OSCP
 author: lymbin
-date: 2023-03-06 00:25:00 +0800
+date: 2023-03-13 00:25:00 +0800
 categories: [OSCP, certification]
 tags: [oscp]
 pin: true
